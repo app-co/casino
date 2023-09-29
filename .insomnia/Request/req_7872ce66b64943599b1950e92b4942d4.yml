@@ -1,0 +1,27 @@
+_id: req_7872ce66b64943599b1950e92b4942d4
+type: Request
+parentId: fld_d5f4ffcd61384fce886d5fe9bce6a89f
+modified: 1695741578131
+created: 1695709075682
+url: "{{ _.url }}/bonus"
+name: LIST
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_c8b5832f85864704a4f4c58901e4f152
+    name: id
+    value: "2"
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695709075682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

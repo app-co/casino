@@ -1,0 +1,23 @@
+_id: req_d1bb185a43574baa8a20d2a87d4349c3
+type: Request
+parentId: fld_0ca3635958e34d3395f62f2c00b07859
+modified: 1695682037535
+created: 1695682007151
+url: "{{ _.url }}/users/get-all"
+name: LIST ALL USERS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695675333029
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

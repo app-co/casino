@@ -1,0 +1,23 @@
+_id: req_357cc7acf7f54303a2b68b7be1fdcc3c
+type: Request
+parentId: fld_8e30cdbae0ae46ebb6efc96f7c72bb3f
+modified: 1695870053788
+created: 1695771844875
+url: "{{ _.url }}/afiliado-by-father/1"
+name: LIST BY FATHER
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695771844875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

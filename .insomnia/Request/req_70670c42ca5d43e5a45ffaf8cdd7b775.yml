@@ -1,0 +1,65 @@
+_id: req_70670c42ca5d43e5a45ffaf8cdd7b775
+type: Request
+parentId: fld_d5f4ffcd61384fce886d5fe9bce6a89f
+modified: 1695707799603
+created: 1695707023194
+url: "{{ _.url }}/bonus"
+name: CREATE
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_692c53663ad14525beb54cf38e531092
+      name: name
+      value: bonus teste
+      description: ""
+    - id: pair_fb344c0b4eda40ee99ad1dd9a677969a
+      name: limit
+      value: "100"
+      description: ""
+    - id: pair_32ec776ae8024a9f888c556c1c050a72
+      name: limit_user
+      value: "100"
+      description: ""
+    - id: pair_227f4d6c236a402e96ce45f1d162491c
+      name: maximunu_deposit
+      value: "300"
+      description: ""
+    - id: pair_8d9a9feba44542388fcc9cb81ca22bb1
+      name: rollover
+      value: "50"
+      description: ""
+    - id: pair_e45139fccd8d4a43ae11003894c4212d
+      name: days_expire
+      value: "5"
+      description: ""
+    - id: pair_7fe86a395aae4fe4bc9113f0fc29e8ae
+      name: percentage
+      value: "10"
+      description: ""
+    - id: pair_96a52cdd4bc24676a519f525110e740f
+      name: img_url
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/william/Downloads/photo1692284706.jpeg
+    - id: pair_39445c68b7bf466fabe5b1dc96e70a83
+      name: minimiun_deposit
+      value: "10"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695707023194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

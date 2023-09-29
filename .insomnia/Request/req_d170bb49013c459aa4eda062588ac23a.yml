@@ -1,0 +1,32 @@
+_id: req_d170bb49013c459aa4eda062588ac23a
+type: Request
+parentId: fld_32b1996bbc654904949f4e6148bbd826
+modified: 1695927625579
+created: 1695899813482
+url: "{{ _.url }}/client/wallet_balance"
+name: END GAME
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"wallet_id": 10,
+    	"user_id": 4,
+    	"newBalance": 20000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695899813482
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

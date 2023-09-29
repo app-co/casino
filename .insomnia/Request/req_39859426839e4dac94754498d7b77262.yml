@@ -1,0 +1,30 @@
+_id: req_39859426839e4dac94754498d7b77262
+type: Request
+parentId: fld_32b1996bbc654904949f4e6148bbd826
+modified: 1695902149659
+created: 1695899765261
+url: "{{ _.url }}/client/initGame"
+name: START GAME
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 4
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695899765261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

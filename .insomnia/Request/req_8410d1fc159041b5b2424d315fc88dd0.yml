@@ -1,0 +1,32 @@
+_id: req_8410d1fc159041b5b2424d315fc88dd0
+type: Request
+parentId: fld_8e30cdbae0ae46ebb6efc96f7c72bb3f
+modified: 1695901289325
+created: 1695807354003
+url: "{{ _.url }}/referral-seting"
+name: SETTING
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cpa": 50,
+    	"rev_share_percent": 10,
+    	"id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695807354003
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
