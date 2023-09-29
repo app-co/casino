@@ -1,0 +1,23 @@
+_id: req_473703d00ea54c6faffe1cf8cfbde544
+type: Request
+parentId: fld_8fa370bfbad745f19e751677d2a4dff8
+modified: 1696016872442
+created: 1696016817161
+url: "{{ _.url }}/withdraw-afiliado"
+name: "LIST ALL "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696016817161
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

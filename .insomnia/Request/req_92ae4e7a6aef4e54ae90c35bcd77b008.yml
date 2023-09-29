@@ -1,19 +1,18 @@
-_id: req_d170bb49013c459aa4eda062588ac23a
+_id: req_92ae4e7a6aef4e54ae90c35bcd77b008
 type: Request
-parentId: fld_32b1996bbc654904949f4e6148bbd826
-modified: 1696016679303
-created: 1695899813482
-url: "{{ _.url }}/client/wallet_balance"
-name: END GAME
+parentId: fld_8fa370bfbad745f19e751677d2a4dff8
+modified: 1696016727949
+created: 1696014254334
+url: "{{ _.url }}/withdraw-afiliado"
+name: CREATE
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"wallet_id": 10,
-    	"user_id": 4,
-    	"newBalance": 5000
+    	"amount": 3500,
+    	"id": 1
     }
 parameters: []
 headers:
@@ -21,8 +20,11 @@ headers:
     value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
-metaSortKey: -1695899813482
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_12a410c6c9f6413b83f1ef72ef7aeeee',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1696014254334
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
